@@ -1,7 +1,11 @@
 static-site-generators
 ======================
 
-A mini-review of static site generators.
+This is a mini-review of static site generators.
+
+If you have updates/corrections then please feel free to submit pull requests.
+
+
 
 History
 -------
@@ -24,7 +28,7 @@ Like many people approaching the use of a static site generator I had only a few
 * Different pages/sections of the site must be able to use a different layout.
 * There must be support for both global and per-page variables.
 * Conditionals, loops, and similar would be great but are not strictly required.
-* Conditional file inclusion is absolutely required though.
+   * Conditional file inclusion is absolutely required though.
 * Handling symlinks in the input tree is required.
 * Working "in-place" is a bonus, as it makes migration easier.
 
@@ -32,10 +36,9 @@ Like many people approaching the use of a static site generator I had only a few
 Testing Methodology
 -------------------
 
-For each of the available tools I'm going to write a simple site.  This site will
-include at least two layouts, a conditional file inclusion, and a number of symlinks.
-
-Any tool which is successfully used will be given a pass.  Any tool which fails on one or more of the requirements will be given a failure mark.
+For each of the available tools I'm going to write a simple site, which will be
+bundled into this repository.  The site will attempt to satisfy each of the
+requirements - and if it the tool is judged to fail further work will be stopped.
 
 
 Available Tools
