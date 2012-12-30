@@ -8,6 +8,12 @@ menu-position: 0
 In Poole you write your pages in [markdown][md]. It's easier to write
 markdown than HTML.
 
+Here is some inline Python:
+
+{%
+print "Hello, World"
+%}
+
 Poole is made for simple websites you just want to get done, without installing
 a bunch of requirements and without learning a template engine.
 
