@@ -1,0 +1,8 @@
+
+
+build:
+	mkdir ./output || true
+	poole.py --build
+
+clean:
+	rm -rf ./output/
