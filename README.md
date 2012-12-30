@@ -47,7 +47,7 @@ Available Tools
 * jekyll
 * hyde
 * mako
-* nanoc
+* [nanoc](#nanoc]
 * pelican
 * [poole](#poole)
 * tahchee
@@ -55,6 +55,14 @@ Available Tools
 * webgen
 * wml
 
+
+
+nanoc
+-----
+
+[nanoc](http://nanoc.stoneship.org/) is a simple static site generator written in Ruby.  Installation is as simple as:
+
+      $ sudo gem install nanoc
 
 
 poole
