@@ -59,6 +59,7 @@ Available Tools
 * [nanoc](#nanoc]
 * pelican
 * [poole](#poole)
+* [templer](#templer)
 * tahchee
 * webby
 * webgen
@@ -91,6 +92,12 @@ Unfortunately poole fails to meet the requirements for two reasons:
 
 * There is a single, global, layout.  You cannot choose a different layout on a per-page basis.
 * The tool is broken with regard to symlinks, as the sample project demonstrates.
+
+
+Templer
+-------
+
+[Templer](https://github.com/skx/templer) is my home-made solution, and satisfies my requirements.  It is included for completeness only.
 
 
 Links

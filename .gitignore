@@ -1,5 +1,8 @@
 
 poole/*.pyc
 pool/output/*
+
 nanoc/tmp
 nanoc/output/*
+
+templer/output/*
