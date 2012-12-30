@@ -63,6 +63,9 @@ accompanying Makefile.  Each project will have two targets:
 
 Installing the actual tools is beyond the scope of this document.
 
+If any project satisfies my requirements 100% it will receive full rating, otherwise
+they will be rated on a scale of 1-5 based on the flexibility, documentation and
+utility of the project.
 
 
 Conclusion
