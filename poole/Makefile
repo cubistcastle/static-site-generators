@@ -5,4 +5,5 @@ build:
 	poole.py --build
 
 clean:
-	rm -rf ./output/
+	rm -rf ./output/ || true
+	rm *.pyc || true
