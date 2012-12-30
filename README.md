@@ -106,7 +106,7 @@ webgen
 
       $ sudo gem install webgen
 
-webgen is pretty flexible, and easily allowed me to vary the template used on a per-page basis.  It also allowed me to add dynamic content with ease.
+webgen is pretty flexible and easily allowed me to vary the template used on a per-page basis.  It also allowed me to add dynamic content with ease.   I liked the notion it had of "blocks" which could be inserted on a per-page basis.
 
 Unfortunately webgen also failed to correctly handle symlinks:
 
