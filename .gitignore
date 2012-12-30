@@ -1,3 +1,4 @@
+jekyll/output/
 
 poole/*.pyc
 pool/output/*
@@ -9,3 +10,4 @@ templer/output/*
 
 webgen/out/*
 webgen/webgen.cache
+
