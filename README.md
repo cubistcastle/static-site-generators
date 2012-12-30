@@ -103,5 +103,5 @@ Templer
 Links
 -----
 
-* [Poll: What's your favorite static site generator?generator](http://news.ycombinator.com/item?id=4857473)
+* [Poll: What's your favorite static site generator?](http://news.ycombinator.com/item?id=4857473)
 * [32 Static Website Genertors](http://iwantmyname.com/blog/2011/02/list-static-website-generators.html)
