@@ -29,6 +29,15 @@ Like many people approaching the use of a static site generator I had only a few
 * Working "in-place" is a bonus, as it makes migration easier.
 
 
+Testing Methodology
+-------------------
+
+For each of the available tools I'm going to write a simple site.  This site will
+include at least two layouts, a conditional file inclusion, and a number of symlinks.
+
+Any tool which is successfully used will be given a pass.  Any tool which fails on one or more of the requirements will be given a failure mark.
+
+
 Available Tools
 ---------------
 
@@ -37,14 +46,24 @@ Available Tools
 * mako
 * nanoc
 * pelican
-* pool
+* poole
 * tahchee
 * webby
 * webgen
 * wml
 
 
+
+poole
+------
+
+[poole](https://bitbucket.org/obensonne/poole) is a static site generator which is written in Python, and uses markdown.
+
+You can see my simple site in [pool/](pool/).
+
+
 Links
 -----
 
 * [Poll: What's your favorite static site generator?generator](http://news.ycombinator.com/item?id=4857473)
+* [32 Static Website Genertors](http://iwantmyname.com/blog/2011/02/list-static-website-generators.html)
