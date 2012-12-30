@@ -130,6 +130,30 @@ At this point I received a cryptic error and aborted the test.  The repository c
 
 
 
+Conclusion
+==========
+
+Many of the tools reviewed contained common concepts, which I used to inspire myself when I was rationalizing the divergent copies of my own tool (initially named 'webgen', later renamed to 'templer').
+
+The notion of a page containing meta-data, and per-page variables is the most obvious thing the different tools had in common, but even command line flags were frequently the same:
+
+     $ tool generate
+     $ tool rebuild
+
+etc.
+
+The common stumbling block for most of these tools was the handling of symbolic links:
+
+* Symlinks to directories.
+    * These would frequently be ignored.
+* Symlinks to files.
+   * These would frequently be replaced with literal copies.
+
+Unfortunately I've gotten into the routine and habit of using symlinks for versioning purposes - so I might have `jquery.js` be a symlink to `jquery-1.8.3.js`, for example.  In a real sense failures to handle symlinks might not be a deal-breaker for others, but for me it meant that I couldn't port my sites to a different tool and have 100% identical output.
+
+Having consistently reproducable output and having a tool generate content I could make already seemed to be the bear minimum I could expect before I started making changes.
+
+
 Links
 -----
 
