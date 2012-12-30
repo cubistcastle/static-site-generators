@@ -124,6 +124,8 @@ The initial aim of creating per-page layouts was easily achieved, but sadly I ru
 
 Jekyll seems well-regarded and with an excellent collection of [available plugins](https://github.com/mojombo/jekyll/wiki/plugins) I can see why.
 
+Steve-Rating: 4/5.
+
 
 
 nanoc
@@ -139,6 +141,7 @@ Using a flexible "routing" system you can specify different types of processing,
 
 Unfortunately nanoc fails my requirements because it is broken with regard to symbolic link handling - as the sample site demonstrates.
 
+Steve-Rating: 4/5.
 
 
 poole
@@ -152,6 +155,10 @@ Unfortunately poole fails to meet the requirements for two reasons:
 
 * There is a single, global, layout.  You cannot choose a different layout on a per-page basis.
 * The tool is broken with regard to symlinks, as the sample project demonstrates.
+
+
+Steve-Rating: 3/5 - It lost a point for being married to the idea that a site would have
+a single layout-template.
 
 
 
@@ -176,6 +183,9 @@ Unfortunately webgen also failed to correctly handle symlinks:
 * Symlinks to files were replaced with copies.
 * Symlinks to directories were just ignored.
 
+Steve-Rating: 4/5
+
+
 
 
 webby
@@ -191,6 +201,8 @@ I generated a sample site and built it via:
       $ cd webby && webby
 
 At this point I received a cryptic error and aborted the test.  The repository contains the generated site, but no changes have been made.
+
+Steve-Rating: 1/5 - It works for others, but when I installed it and couldn't even understand the error message it generated I couldn't take it seriously.
 
 
 
