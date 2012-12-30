@@ -46,7 +46,7 @@ Available Tools
 * mako
 * nanoc
 * pelican
-* poole
+* [poole](#poole)
 * tahchee
 * webby
 * webgen
