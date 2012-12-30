@@ -61,7 +61,7 @@ Available Tools
 * [poole](#poole)
 * [templer](#templer)
 * tahchee
-* webby
+* [webby](#webby)
 * webgen
 * wml
 
@@ -98,6 +98,22 @@ Templer
 -------
 
 [Templer](https://github.com/skx/templer) is my home-made solution, and satisfies my requirements.  It is included for completeness only.
+
+
+webby
+-----
+
+[webby](http://webby.rubyforge.org/) is a simple static site generator written in Ruby.  Installation is as simple as:
+
+      $ sudo gem install webby
+
+I generated a sample site and built it via:
+
+      $ webby-gen website webby
+      $ webby
+
+At this point I received a cryptic error and aborted the test.  The repository contains the generated site, but no changes have been made.
+
 
 
 Links
