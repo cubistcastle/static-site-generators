@@ -36,6 +36,7 @@ Available Tools
 * hyde
 * mako
 * nanoc
+* pelican
 * pool
 * tahchee
 * webby
