@@ -106,8 +106,7 @@ and the freedom to create interesting sites with ease.
 Available Tools
 ---------------
 
-* hakyll
-    * TODO: http://jaspervdj.be/hakyll/index.html
+* [hakyll](#hakyll)
 * hyde
     * TODO: http://ringce.com/hyde
 * [jekyll](#jekyll)
@@ -123,6 +122,22 @@ Available Tools
 * wml
     * TODO: http://thewml.org/
 
+
+
+hakyll
+------
+
+[hakyll](http://jaspervdj.be/hakyll/) is the most unusual generator upon our list, being written in Haskell.  That language is alien to me, but despite this it was simple to get up and running with.
+
+Installation first required a haskell environment, then the installation of the tool itself:
+
+      $ sudo apt-get install ghc6 cabal-install
+      $ sudo cabal update
+      $ sudo cabal install hakyll
+
+Sadly this installation failed, and haskell is too alien to me to debug further.
+
+Steve-Rating: 1/5.  I suspect this tool would score 4/5 if it were installable by myself.
 
 
 jekyll
