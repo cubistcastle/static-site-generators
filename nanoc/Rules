@@ -17,6 +17,10 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
+compile 'about*' do
+  layout 'about'
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items

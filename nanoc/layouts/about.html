@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A Brand New nanoc Site - <%= @item[:title] %></title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+
+  </head>
+  <body>
+      <div id="main" style="border: 1px solid red">
+      <%= yield %>
+    </div>
+    <div id="sidebar">
+        <p>This layout has an empty side-bar</p>
+    </div>
+  </body>
+</html>
