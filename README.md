@@ -135,7 +135,7 @@ Installation first required a haskell environment, then the installation of the 
       $ sudo cabal update
       $ sudo cabal install hakyll
 
-Sadly this installation failed, and haskell is too alien to me to debug further.
+Sadly this installation failed, and haskell is too alien to me to debug further.  I suspect this will get better for the Wheezy release of Debian [as native packages ara available](http://packages.debian.org/search?keywords=hakyll).
 
 Steve-Rating: 1/5.  I suspect this tool would score 4/5 if it were installable by myself.
 
