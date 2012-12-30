@@ -106,11 +106,11 @@ and the freedom to create interesting sites with ease.
 Available Tools
 ---------------
 
-* [jekyll](#jekyll)
 * hakyll
     * TODO: http://jaspervdj.be/hakyll/index.html
 * hyde
     * TODO: http://ringce.com/hyde
+* [jekyll](#jekyll)
 * [nanoc](#nanoc)
 * pelican
     * TODO: https://github.com/getpelican/pelican
