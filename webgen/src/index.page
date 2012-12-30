@@ -1,0 +1,13 @@
+---
+title: Empty Index Page
+in_menu: true
+routed_title: New webgen Website
+name: Steve Kemp
+---
+## Welcome to *webgen*!
+
+This is a page that contains some markup.   There is another page too:
+
+* [about](/about.html)
+
+This page contains dynamic variables, see my name is {name:}!

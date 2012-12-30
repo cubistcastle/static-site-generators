@@ -6,3 +6,6 @@ nanoc/tmp
 nanoc/output/*
 
 templer/output/*
+
+webgen/out/*
+webgen/webgen.cache

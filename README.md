@@ -55,14 +55,13 @@ Available Tools
 
 * jekyll
 * hyde
-* mako
 * [nanoc](#nanoc)
 * pelican
 * [poole](#poole)
 * [templer](#templer)
 * tahchee
 * [webby](#webby)
-* webgen
+* [webgen](#webgen)
 * wml
 
 
@@ -98,6 +97,21 @@ Templer
 -------
 
 [Templer](https://github.com/skx/templer) is my home-made solution, and satisfies my requirements.  It is included for completeness only.
+
+
+webgen
+------
+
+[webgen](http://webgen.rubyforge.org/) is another Ruby-based project, which is easily installed via:
+
+      $ sudo gem install webgen
+
+webgen is pretty flexible, and easily allowed me to vary the template used on a per-page basis.  It also allowed me to add dynamic content with ease.
+
+Unfortunately webgen also failed to correctly handle symlinks:
+
+* Symlinks to files were replaced with copies.
+* Symlinks to directories were just ignored.
 
 
 webby
