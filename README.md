@@ -57,11 +57,14 @@ Available Tools
 poole
 ------
 
-[poole](https://bitbucket.org/obensonne/poole) is a static site generator which is written in Python, and uses markdown.
+[poole](https://bitbucket.org/obensonne/poole) is a static site generator which is written in Python, and uses markdown for text processing.
 
-poole is a nice simple tool, and allows dynamic content to be written in your input files (in Python).  The output of the python will appear inline, and there is also the ability to generate simple stub functions in the `macros.py` file.
+poole  allows dynamic content to be written in the input files (in Python).  The output of the python will appear inline, and there is also the ability to generate simple stub functions in the `macros.py` file.  This functionality is sufficient to allow file-inclusion, and similar dynamic handling.
 
-Unfortunately poole insists upon using a single layout template, called `page.html`, so it fails on my requirement that I must be allowed to specify a layout template on a per-page basis.
+Unfortunately poole fails to meet the requirements for two reasons:
+
+* There is a single, global, layout.  You cannot choose a different layout on a per-page basis.
+* The tool is broken with regard to symlinks, as the sample project demonstrates.
 
 
 Links
