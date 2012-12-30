@@ -56,7 +56,7 @@ Available Tools
 * jekyll
 * hyde
 * mako
-* [nanoc](#nanoc]
+* [nanoc](#nanoc)
 * pelican
 * [poole](#poole)
 * [templer](#templer)
