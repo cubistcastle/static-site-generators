@@ -6,7 +6,6 @@ This is a mini-review of static site generators.
 If you have updates/corrections then please feel free to submit pull requests.
 
 
-
 History
 -------
 
@@ -40,6 +39,16 @@ For each of the available tools I'm going to write a simple site, which will be
 bundled into this repository.  The site will attempt to satisfy each of the
 requirements - and if it the tool is judged to fail further work will be stopped.
 
+Within this repository you'll find one sub-directory per tool, along with an
+accompanying Makefile.  Each project will have two targets:
+
+* `make`
+   * Build the site.
+* `make clean`
+   * Clean the site.
+
+Installing the actual tools is beyond the scope of this document.
+
 
 Available Tools
 ---------------
@@ -64,7 +73,9 @@ nanoc
 
       $ sudo gem install nanoc
 
-nanoc allows dynamic code to be added to your pages, which is replaced by the output.  There is the facility to declare per-page and global variables.  It allows different templates to be used on a per-page basis.
+nanoc allows dynamic code to be added to your pages, in ruby.   There is a _great_ extension infrastructure, and simple things such as tags are supported natively.
+
+Using a flexible "routing" system you can specify different types of processing, and specify per-page layouts.
 
 Unfortunately nanoc fails my requirements because it is broken with regard to symbolic link handling - as the sample site demonstrates.
 
@@ -72,7 +83,7 @@ Unfortunately nanoc fails my requirements because it is broken with regard to sy
 poole
 ------
 
-[poole](https://bitbucket.org/obensonne/poole) is a static site generator which is written in Python, and uses markdown for text processing.
+[poole](https://bitbucket.org/obensonne/poole) is a static site generator which is written in Python, and uses markdown for text processing.  Installation of the tool is as simple as cloning a repository, and adding it to your PATH.
 
 poole  allows dynamic content to be written in the input files (in Python).  The output of the python will appear inline, and there is also the ability to generate simple stub functions in the `macros.py` file.  This functionality is sufficient to allow file-inclusion, and similar dynamic handling.
 
