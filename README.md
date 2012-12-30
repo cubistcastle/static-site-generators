@@ -96,6 +96,11 @@ Having consistently reproducable output and having a tool generate content I
 could make already seemed to be the bear minimum I could expect before I
 started making changes.
 
+Despite the failure to be suitable for my specific needs I'd have no hesitation
+in recommending the tools which scored 3+.  Many of the projects referenced here
+are very well regarded, and I can see why - good documentation, good flexibility,
+and the freedom to create interesting sites with ease.
+
 
 
 Available Tools
