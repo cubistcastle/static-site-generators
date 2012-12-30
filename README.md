@@ -64,6 +64,10 @@ nanoc
 
       $ sudo gem install nanoc
 
+nanoc allows dynamic code to be added to your pages, which is replaced by the output.  There is the facility to declare per-page and global variables.  It allows different templates to be used on a per-page basis.
+
+Unfortunately nanoc fails my requirements because it is broken with regard to symbolic link handling - as the sample site demonstrates.
+
 
 poole
 ------
