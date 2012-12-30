@@ -98,7 +98,7 @@ started making changes.
 Available Tools
 ---------------
 
-* jekyll
+* [jekyll](#jekyll)
 * hyde
 * [nanoc](#nanoc)
 * pelican
@@ -108,6 +108,21 @@ Available Tools
 * [webby](#webby)
 * [webgen](#webgen)
 * wml
+
+
+
+jekyll
+------
+
+[jekyll](https://github.com/mojombo/jekyll) is the first of our Ruby-based projects.  This is packaged as a gem, and can be installed via:
+
+      $ sudo gem install jeykll
+
+Jejyll is unlike several of the other static-site generators I've examined in the sense that it had no helper to build a new site.  This made getting started a little more complex than I'd have wished, but that said it was flexible and seemed like a well-documented project.
+
+The initial aim of creating per-page layouts was easily achieved, but sadly I ruled it out because each of the symbolic links I created in the input-directory was ignored which resulted in instant-failure against my requirement list.
+
+Jekyll seems well-regarded and with an excellent collection of [available plugins](https://github.com/mojombo/jekyll/wiki/plugins) I can see why.
 
 
 
