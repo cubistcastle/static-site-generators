@@ -4,8 +4,9 @@ server:      false
 server_port: 4000
 base-url:    /
 
-source:      ./input/
+source:      .
 destination: ./output/
+layouts: ./_layouts/
 plugins:     ./_plugins
 
 future:      true
