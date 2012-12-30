@@ -59,8 +59,6 @@ poole
 
 [poole](https://bitbucket.org/obensonne/poole) is a static site generator which is written in Python, and uses markdown.
 
-You can see my simple site in [pool/](pool/).
-
 
 Links
 -----
