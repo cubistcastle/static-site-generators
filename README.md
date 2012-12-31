@@ -127,7 +127,7 @@ Available Tools
 hakyll
 ------
 
-[hakyll](http://jaspervdj.be/hakyll/) is the most unusual generator upon our list, being written in Haskell.  That language is alien to me, but despite this it was simple to get up and running with.
+[hakyll](http://jaspervdj.be/hakyll/) is the most unusual generator upon our list, being written in Haskell.  That language is alien to me, but despite this it didn't seem like it would be too hard to get started with as the available tutorials covered things well.
 
 Installation first required a haskell environment, then the installation of the tool itself:
 
@@ -135,7 +135,7 @@ Installation first required a haskell environment, then the installation of the 
       $ sudo cabal update
       $ sudo cabal install hakyll
 
-Sadly this installation failed, and haskell is too alien to me to debug further.  I suspect this will get better for the Wheezy release of Debian [as native packages ara available](http://packages.debian.org/search?keywords=hakyll).
+Sadly the installation, via `cabal install ..` failed and haskell is too alien to me to debug further.  I suspect this will get better for the Wheezy release of Debian [as native packages ara available](http://packages.debian.org/search?keywords=hakyll).
 
 Steve-Rating: 1/5.  I suspect this tool would score 4/5 if it were installable by myself.
 
