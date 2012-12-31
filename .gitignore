@@ -6,8 +6,12 @@ pool/output/*
 nanoc/tmp
 nanoc/output/*
 
+pelican/output/*
+pelican/*.pyc
+
 templer/output/*
 
 webgen/out/*
 webgen/webgen.cache
+
 

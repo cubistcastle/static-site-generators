@@ -111,8 +111,7 @@ Available Tools
     * TODO: http://ringce.com/hyde
 * [jekyll](#jekyll)
 * [nanoc](#nanoc)
-* pelican
-    * TODO: https://github.com/getpelican/pelican
+* [pelican](#pelican)
 * [poole](#poole)
 * [templer](#templer)
 * tahchee
@@ -171,6 +170,27 @@ Using a flexible "routing" system you can specify different types of processing,
 Unfortunately nanoc fails my requirements because it is broken with regard to symbolic link handling - as the sample site demonstrates.
 
 Steve-Rating: 4/5.
+
+
+pelican
+-------
+
+[pelican](http://docs.getpelican.com/en/3.1.1/) is a python-based site-generator which is easily installed upon a Debian host:
+
+        $ sudo apt-get install python-pip
+        $ sudo pip install pelican
+
+The software is very well documented, and I found it pleasant to work with, however it was a struggle to use it for generating a static site.  Instead it is more focussed upon being a blogging platform.  If you look at the sample project you'll see the difference immediately:
+
+* Although I could create the static output /steve.html & /about.html the index.html was made up of the pair of them.
+   * i.e. The front-page showed the most-recent articles and I couldn't disable that.
+* Static assets weren't copied into the output tree.
+   * For example my jquery file, and the /robots.txt file.
+
+Steve-Rating: 4/5.  As a blogging platform it looks excellent.  Many plugins, an attractive theme, and good handling for feeds and similar.
+
+For a static site?  Less useful.
+
 
 
 poole
