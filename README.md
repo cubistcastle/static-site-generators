@@ -235,12 +235,3 @@ Steve-Rating: 1/5 - It works for others, but when I installed it and couldn't ev
 
 
 
-Links
------
-
-These are here mostly to give a starting point for future generators to examine
-once my initial list is completed.
-
-
-* [Poll: What's your favorite static site generator?](http://news.ycombinator.com/item?id=4857473)
-* [32 Static Website Genertors](http://iwantmyname.com/blog/2011/02/list-static-website-generators.html)
