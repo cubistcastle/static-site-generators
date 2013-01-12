@@ -17,7 +17,7 @@ Over time I wrote a simple templating tool which would allow me to wrap pages of
 
 I used my tool on several sites and over time I made several site-specific tweaks to allow me to have dynamic menus, different layouts on different sections of the sites, etc.
 
-Finally I rationalized all the different versions, tidied it up, and released it as [Templer](https://github.com/skx/templer).
+Finally I rationalized all the different versions, tidied it up, and released it as [Templer](https://github.com/skx/templer).  (It now supports plugins which allowed me to add support for both Textile & Markdown input.)
 
 
 
