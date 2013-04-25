@@ -35,7 +35,7 @@ route '/stylesheet/' do
 end
 
 route '*' do
-  if item.binary?
+  if item.binary? || item[:extension] == 'js'
     # Write item with identifier /foo/ to /foo.ext
     item.identifier.chop + '.' + item[:extension]
   else
