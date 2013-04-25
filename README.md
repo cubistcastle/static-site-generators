@@ -167,7 +167,7 @@ nanoc allows dynamic code to be added to your pages, in ruby.   There is a _grea
 
 Using a flexible "routing" system you can specify different types of processing, and specify per-page layouts.
 
-Unfortunately nanoc fails my requirements because it is broken with regard to symbolic link handling - as the sample site demonstrates.
+nanoc, as of release 3.6.3, has improved support for symbolic links.  Functionally this seems to work, but symbolic links are not preserved.  Given a file "foo-1.2.3.js" and "foo.js" being a symlink to it then two files are created - rather than one file and a symlink.
 
 Steve-Rating: 4/5.
 
