@@ -1,0 +1,16 @@
+# -*- mode: makefile -*-
+
+TEMPLATES = site.tmpl
+SOURCE = src
+OUTPUT = site
+
+index.html:
+	config
+	markdown
+	inner-template
+	template page
+
+about.html:
+	config
+	markdown
+	template about

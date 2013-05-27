@@ -15,3 +15,5 @@ webgen/out/*
 webgen/webgen.cache
 
 wintersmith/build/*
+
+gostatic/site/
