@@ -14,4 +14,4 @@ templer/output/*
 webgen/out/*
 webgen/webgen.cache
 
-
+wintersmith/build/*
