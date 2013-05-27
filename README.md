@@ -114,6 +114,7 @@ and the freedom to create interesting sites with ease.
 Available Tools
 ---------------
 
+* [gostatic](#gostatic)
 * [hakyll](#hakyll)
 * hyde
     * TODO: http://ringce.com/hyde
@@ -129,6 +130,17 @@ Available Tools
 * wml
     * TODO: http://thewml.org/
 * [wintersmith](#wintersmith)
+
+
+gostatic
+--------
+
+[gostatic](https://github.com/piranha/gostatic) is a static-site generator written
+in Go.  I've not yet looked at it, because I don't have a go environment configured.
+
+However the `gostatic/` directory contains a site which can be used to evaluate it
+later - comments from people welcome - looking over the project it seems to support
+everything I'd want, but the handling of symlinks is unknown.
 
 
 hakyll
