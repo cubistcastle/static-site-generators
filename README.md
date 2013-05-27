@@ -120,7 +120,7 @@ Available Tools
 * [webgen](#webgen)
 * wml
     * TODO: http://thewml.org/
-
+* [wintersmith](#wintersmith)
 
 
 hakyll
@@ -255,3 +255,27 @@ Steve-Rating: 1/5 - It works for others, but when I installed it and couldn't ev
 
 
 
+wintersmith
+-----------
+
+[wintersmith](http://wintersmith.io/) is a static site generator written in Javascript, and built upon [node.js](http://nodejs.org).
+
+Installation is simple if you have node already present:
+
+        $ sudo npm install wintersmith -g
+
+I generated the new site via:
+
+        $ wintersmith  new ~/git/static-site-generators/wintersmith
+        initializing new wintersmith site in /home/skx/git/static-site-generators/wintersmith using template blog
+        warn npm: package.json my-blog@0.0.1 No repository field.
+        typogr@0.5.2 node_modules/typogr
+        underscore@1.4.4 node_modules/underscore
+        moment@2.0.0 node_modules/moment
+        done!
+
+Once created the site was built from the `./contents/` directory into the `./build` output directory.
+
+Once again wintersmith failed the symbolic link.  Symlinked resources were copied literally.  Otherwise it did very well, the github repository contains good examples, and the project is very flexible with regards to views, plugins etc.  Creating per-page layouts is trivial.
+
+Steve-Rating: 4/5
