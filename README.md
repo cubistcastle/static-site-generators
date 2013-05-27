@@ -19,6 +19,13 @@ I used my tool on several sites and over time I made several site-specific tweak
 
 Finally I rationalized all the different versions, tidied it up, and released it as [Templer](https://github.com/skx/templer).  (It now supports plugins which allowed me to add support for both Textile & Markdown input.)
 
+Templer is used on many sites, but a reasonably complete example is the Lumail website,
+which uses a couple of home-made plugins to auto-generate and auto-link the Lua primitives
+I've implemented in my mail client:
+
+* [lumail - console mail client with Lua scripting.](http://lumail.org)
+    * [The source this site is built from](http://github.com/skx/lumail.org)
+
 
 
 
@@ -92,9 +99,10 @@ versioning purposes - so I might have `jquery.js` be a symlink to
 might not be a deal-breaker for others, but for me it meant that I couldn't
 port my sites to a different tool and have 100% identical output.
 
-Having consistently reproducable output and having a tool generate content I
-could make already seemed to be the bear minimum I could expect before I
-started making changes.
+(Before considering switching to any tool I'd want to be able to generate
+exactly the same output as I currently do.  Any devitiations are a concern,
+that's why I take the hard-line stance on symlink-handling.)
+
 
 Despite the failure to be suitable for my specific needs I'd have no hesitation
 in recommending the tools which scored 3+.  Many of the projects referenced here
