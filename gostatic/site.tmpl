@@ -1,0 +1,38 @@
+{{ define "header" }}<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+ {{ if .Title }}
+  <title>{{ html .Title }}</title>
+ {{ else }}
+  <title>Untitled Page</title>
+ {{ end }}
+ </head>
+ <body>
+{{ end }}
+
+{{ define "footer" }}
+ </body>
+</html>
+{{ end }}
+
+{{ define "page" }}{{ template "header" . }}
+{{ .Content }}
+{{ template "footer" }}
+{{ end }}
+
+{{ define "about" }}{{ template "header" . }}
+  <table width="100%">
+   <tr>
+    <td valign="top" width="20%">
+      <ul>
+       <li>Free Software.</li>
+       <li>Cake.</li>
+      </ul>
+     </td>
+     <td valign="top">
+{{ .Content }}
+     </td></tr>
+    </table>
+{{ template "footer" }}
+{{ end }}
