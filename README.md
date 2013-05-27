@@ -258,7 +258,7 @@ Steve-Rating: 1/5 - It works for others, but when I installed it and couldn't ev
 wintersmith
 -----------
 
-[wintersmith](http://wintersmith.io/) is a static site generator written in Javascript, and built upon [node.js](http://nodejs.org).
+[wintersmith](http://wintersmith.io/) is a static site generator written in Javascript, and built upon [node.js](http://nodejs.org).  **NOTE**: You can serve the output statically, node.js is used for building not for serving/hosting.
 
 Installation is simple if you have node already present:
 
