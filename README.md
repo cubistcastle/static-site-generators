@@ -1,11 +1,11 @@
 static-site-generators
 ======================
 
-This is a mini-review of static site generators using those that were previously recommended to me on [my blog](http://blog.steve.org.uk).
+This is a mini-review of static site generators using those that were previously recommended to me on [my blog](http://blog.steve.org.uk).  There is a more [complete listing of different static site generators](http://staticsitegenerators.net/) available elsewhere.
 
 I'm happy to receive updates, corrections, or suggestions of further tools to review.  Please just fork this repository and submit a pull request.
 
-[If you're after a complete listing of all the different static site generators, check out StaticSiteGenerators.net](http://staticsitegenerators.net/)
+**Note**: My time is short, and so I'm not going to be working on this repository more than a day every half-year or so.
 
 
 History
@@ -17,11 +17,9 @@ Over time I wrote a simple templating tool which would allow me to wrap pages of
 
 I used my tool on several sites and over time I made several site-specific tweaks to allow me to have dynamic menus, different layouts on different sections of the sites, etc.
 
-Finally I rationalized all the different versions, tidied it up, and released it as [Templer](https://github.com/skx/templer).  (It now supports plugins which allowed me to add support for both Textile & Markdown input.)
+Finally I rationalized all the different versions, tidied it up, and released it as [Templer](https://github.com/skx/templer).  (It now supports plugins to add support for Textile, Markdown and other input-formats.)
 
-Templer is used on many sites, but a reasonably complete example is the Lumail website,
-which uses a couple of home-made plugins to auto-generate and auto-link the Lua primitives
-I've implemented in my mail client:
+Templer is used on many sites, but a reasonably complete example is the Lumail website, which uses a couple of home-made plugins to auto-generate and auto-link the Lua primitives I've implemented in my mail client:
 
 * [lumail - console mail client with Lua scripting.](http://lumail.org)
     * [The source this site is built from](http://github.com/skx/lumail.org)
@@ -32,8 +30,7 @@ I've implemented in my mail client:
 My Requirements
 ---------------
 
-Like many people approaching the use of a static site generator I have a few requirements
-which shouldn't be too unreasonable:
+Like many people approaching the use of a static site generator I have a few requirements which shouldn't be too unreasonable:
 
 * The tool must allow me to separate the content and the layout.
    * Different pages/sections of the site must be able to use a different layout.
@@ -42,7 +39,7 @@ which shouldn't be too unreasonable:
    * Conditional file inclusion is absolutely required though.
 * Working "in-place" is a bonus, as it makes migration easier.
 * Handling symlinks in the input tree is required.
-
+   * This will come up time and time again as something that many tools fail on.
 
 
 
