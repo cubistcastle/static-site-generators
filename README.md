@@ -163,7 +163,7 @@ jekyll
 
       $ sudo gem install jeykll
 
-Jejyll is unlike several of the other static-site generators I've examined in the sense that it had no helper to build a new site.  This made getting started a little more complex than I'd have wished, but that said it was flexible and a very well-documented project.
+Jekyll is unlike several of the other static-site generators I've examined in the sense that it had no helper to build a new site.  This made getting started a little more complex than I'd have wished, but that said it was flexible and a very well-documented project.
 
 The initial aim of creating per-page layouts was easily achieved, but sadly I ruled it out because each of the symbolic links I created in the input-directory was ignored which resulted in instant-failure against my requirement list.
 
